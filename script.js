@@ -9,7 +9,7 @@ let D = b**2 - 4*a*c;
 if ( D < 0 ){
     alert( "Tenglama yechimga ega emas!" );
 }else if ( D === 0 ){
-    alert( `Tenglama bitta yechimga ega! x=${ -b/2*a }` );
+    alert( `Tenglama bitta yechimga ega!  x=${ -b/2*a }` );
 }else if ( D > 0 ){
-    alert(`Tenglama ikkita yechimga ega! x1=${ (-b + D)/2*a}, x2=${ (-b - D)/2*a }` );
+    alert(`Tenglama ikkita yechimga ega!  x1=${ (-b + D)/2*a}, x2=${ (-b - D)/2*a }` );
 }
